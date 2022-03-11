@@ -23,8 +23,8 @@ const Home = () => {
             <main className="home container">
                 <Card name={name} />
                 <div className="home-inputs">
-                    <input type="text" id='input' placeholder='Digite seu nome para simular seu cartão!' className='input-write' maxLength={24} onKeyPress={handleSubmit} onChange={(e) => setName(e.target.value)} />
-                    <button className='home-button' onClick={lstorage} >Salvar</button>
+                    <input type="text" id='input' autoComplete='off' placeholder='Digite seu nome para simular seu cartão!' className='input-write' maxLength={24} onKeyPress={handleSubmit} onChange={(e) => setName(e.target.value)} />
+                    <button className='home-button'   onClick={lstorage} >Salvar</button>
                 </div>
             </main>
 
