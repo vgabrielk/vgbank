@@ -2,12 +2,13 @@ import React from 'react';
 import VgCard from '../../assets/images/vgcard.svg'
 
 const Card = (props) => {
+    
     return (
         <>
             <div className="card-bank">
                 <img className='bank-logo-finances' src={VgCard} alt="" />
                 <p className='type-name'>
-                    {props.name}
+                    {localStorage.getItem('name')}
                 </p>
                 <p className='number-card'>
                     8888 8888 88888 8888

@@ -15,9 +15,6 @@ const SideBar = () => {
                     <Link to='/financas'><GrMoney /> </Link>
                     <Link to='/payments'><FaProductHunt /> </Link>
                 </div>
-                    <div className="sidebar-user">
-                        {localStorage.getItem('name')}
-                    </div>
                 <img className='bank-logo' src={BankLogo} alt="" />
             </aside>
         </>

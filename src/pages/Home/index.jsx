@@ -12,11 +12,20 @@ const Home = () => {
         location.reload()
     }
 
+    const handleSubmit = (e) => {
+        if (e.key == 'Enter') {
+            localStorage.setItem('name', name)
+            location.reload()
+        }
+    }
     return (
         <>
             <main className="home container">
                 <Card name={name} />
-                <input type="text" id='input' placeholder='Digite seu nome para simular seu cartão!' onBlur={lstorage} className='input-write' maxLength={24} onChange={(e) => setName(e.target.value)} />
+                <div className="home-inputs">
+                    <input type="text" id='input' placeholder='Digite seu nome para simular seu cartão!' className='input-write' maxLength={24} onKeyPress={handleSubmit} onChange={(e) => setName(e.target.value)} />
+                    <button className='home-button' onClick={lstorage} >Salvar</button>
+                </div>
             </main>
 
         </>

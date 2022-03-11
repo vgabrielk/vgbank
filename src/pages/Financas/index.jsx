@@ -18,7 +18,6 @@ const Financas = () => {
                     {hideBalance ?
                         <div>
                             <p className='balance'> 00,00</p>
-                            <i className='sidebar-user'> {localStorage.getItem('name')} </i>
                         </div>
                         :
                         <p className='balance'>*****</p>

@@ -43,7 +43,6 @@
 
 .input-write {
     width: 50%;
-    margin-top: 5rem;
     outline: none;
     background-color: transparent;
     border: none;
@@ -74,4 +73,24 @@
 .visa-logo {
     object-fit: cover;
     width: 100%;
+}
+.home-inputs 
+{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.home-button
+{
+    background-color: #222;
+    padding: 10px 18px;
+    height: 100%;
+    margin-left: .5rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.315);
+    outline: none;
+    border: none;
+    color: #eee;
 }
