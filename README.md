@@ -10,8 +10,8 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  Vgbank 🚀 Under construction...  🚧
+<h4 align="center"> 
+	🚧  Vgbank 🚀 Em construção...  🚧
 </h4> 
 
 <hr> -->
@@ -48,11 +48,11 @@ Ferramentas utilizadas no projeto:
 - [React Router](https://reactrouter.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requisitos ##
 
-Antets de inciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) inistalado na sua máquina.
+Antets de inciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalado na sua máquina.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Como iniciar ##
 
 ```bash
 # Clone esse projeto
