@@ -10,11 +10,11 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  Vgbank 🚀 Under construction...  🚧
+<h4 align="center"> 
+	🚧  Vgbank 🚀 Em construção...  🚧
 </h4> 
 
-<hr> -->
+<hr> 
 
 <p align="center">
   <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
@@ -23,60 +23,59 @@
   <a href="#white_check_mark-requirements">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Como inciar</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Autor</a>
+  <a href="https://github.com/vgabrielk" target="_blank">Autor</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
-Projeto desenvolvido para
+Banco fictício, apenas para aprimorar meu portfólio!
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Escreva seu nome no campo e salve para visualizar-lo no cartão ;\
+:heavy_check_mark: Mostrar e esconder saldo na área de finanças;\
+:heavy_check_mark: Interação com usuário ao passar mouse nos extratos;\
+:heavy_check_mark: Nome no campo do cartão salva no local storage;
 
-## :rocket: Technologies ##
 
-The following tools were used in this project:
+## :rocket: Tecnologias ##
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
+Ferramentas utilizadas no projeto:
+
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React Router](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requisitos ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antets de inciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalado na sua máquina.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Como iniciar ##
 
 ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/vgbank
+# Clone esse projeto
+$ git clone https://github.com/vgabrielk/vgbank
 
-# Access
+# Acesse o diretório
 $ cd vgbank
 
-# Install dependencies
-$ yarn
+# Instale as dependências ( Node modules )
+$ npm install
 
-# Run the project
-$ yarn start
+# Rode o projeto
+$ npm run dev  
 
-# The server will initialize in the <http://localhost:3000>
+# O servidor irá inicializar na porta <http://localhost:3000>
 ```
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made by <a href="https://github.com/vgabrielk" target="_blank">VITOR FELIX</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Voltar ao topo</a>
