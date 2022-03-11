@@ -37,7 +37,7 @@ Banco fictício, apenas para aprimorar meu portfólio!
 :heavy_check_mark: Escreva seu nome no campo e salve para visualizar-lo no cartão ;\
 :heavy_check_mark: Mostrar e esconder saldo na área de finanças;\
 :heavy_check_mark: Interação com usuário ao passar mouse nos extratos;\
-:heavy_check_mark: Nome no campo do cartão salva no local storage;\
+:heavy_check_mark: Nome no campo do cartão salva no local storage;
 
 
 ## :rocket: Tecnologias ##
