@@ -1,7 +1,30 @@
-@media(max-width: 600px)
+@media(max-width: 800px) {
+    .home-inputs {
+        width: 90% !important;
+        margin-top: 1rem!important;
+    }
+}
 
+@media(max-width: 600px)
 /* Os importants são definidos para sobrepor tudo que daria erro no CSS! ( a partir de 600px ) */
+
     {
+
+    /* home */
+    .home-inputs {
+        flex-direction: column;
+        align-items: center!important;
+    }
+    .home-inputs input 
+    {
+        width: 100%!important;
+    }
+    .home-inputs button 
+    {
+        margin-top: 1rem!important;
+    }
+
+    /* Sidebar */
     .sidebar {
         position: fixed !important;
         bottom: 0 !important;
@@ -44,12 +67,11 @@
     }
 
     /* Extract */
-    .values
-    {
-        display: none!important;
+    .values {
+        display: none !important;
     }
-    .values::before
-    {
-        display: none!important;
+
+    .values::before {
+        display: none !important;
     }
 }
