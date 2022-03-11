@@ -1,0 +1,63 @@
+.content-extract {
+    background-color: #222;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 290px;
+    padding: 1rem;
+    color: #eee;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    transform: scale(.9);
+    transition: .3s ease;
+}
+
+
+.values::before {
+    content: '';
+    position: absolute;
+    right: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 100px;
+    height: 40px;
+    background-color: #222;
+}
+.values {
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    position: absolute;
+    transition: .6s ease;
+    left: -24rem;
+    display: flex;
+    padding: 1rem;
+    border-radius: 12px;
+    cursor: none;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.values p {
+    width: 60%;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.total {
+    position: absolute;
+    right: 1rem;
+}
+
+.content-extract:hover .values {
+    opacity: 1;
+}
+
+.content-extract .date-buy {
+    position: absolute;
+    right: 2rem;
+    font-size: .6rem;
+}

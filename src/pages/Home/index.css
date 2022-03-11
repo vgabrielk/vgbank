@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-bank {
+    background-color: #222;
+    border-radius: 12px;
+    height: 228px;
+    width: 380px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    animation: animate 1s infinite alternate infinite;
+}
+
+.bank-logo-finances {
+    width: 120px;
+    height: 120px;
+    margin: .5rem 2rem
+}
+
+.type-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 2rem;
+    text-transform: uppercase;
+    font-family: 'Quantico', sans-serif;
+}
+
+.number-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 4rem 2rem;
+    font-family: 'Quantico', sans-serif;
+
+}
+
+.input-write {
+    width: 50%;
+    margin-top: 5rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border: 3px solid #222;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Quantico', sans-serif;
+
+}
+.input-write::selection
+{
+    background-color: #222;
+    color: #0066FF;
+}
+
+.input-write::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.visa-mark {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+}
+
+.visa-logo {
+    object-fit: cover;
+    width: 100%;
+}

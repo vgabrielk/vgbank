@@ -1,0 +1,55 @@
+@media(max-width: 600px)
+
+/* Os importants são definidos para sobrepor tudo que daria erro no CSS! ( a partir de 600px ) */
+    {
+    .sidebar {
+        position: fixed !important;
+        bottom: 0 !important;
+        height: 10vh !important;
+        width: 100% !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0 !important;
+    }
+
+    .sidebar .bank-logo {
+        display: none;
+    }
+
+    .sidebar-nav {
+        justify-content: center !important;
+        width: 100% !important;
+        flex-direction: row !important;
+        margin: 0 !important;
+    }
+
+
+    /* Input */
+
+    .input-write {
+        width: 80% !important;
+    }
+
+    /* Card */
+
+    .card-bank {
+        width: 70% !important;
+        min-width: 300px;
+    }
+
+    .visa-mark {
+        top: 0 !important;
+        /* Coloca a logo do cartão para cima */
+    }
+
+    /* Extract */
+    .values
+    {
+        display: none!important;
+    }
+    .values::before
+    {
+        display: none!important;
+    }
+}
