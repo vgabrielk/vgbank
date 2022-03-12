@@ -45,7 +45,7 @@ const Extract = () => {
                             <span className='total'>{val.value}</span>
                             {val.buys.map(buy => (
                                 <>
-                                    <p key={buy}>{buy}</p>
+                                    <p key={buy}>{buy} <hr /> </p>
                                 </>
                             ))}
                         </div>

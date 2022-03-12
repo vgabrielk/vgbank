@@ -12,7 +12,7 @@ const Financas = () => {
         <>
             <div className="finances container">
                 <div className="finances-balance">
-                    <h2>Seu saldo</h2>
+                    <h2>Seu extrato</h2>
                     <button onClick={hide}> <BsEyeFill /></button>
 
                     {hideBalance ?
