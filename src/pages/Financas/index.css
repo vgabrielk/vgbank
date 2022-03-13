@@ -1,18 +1,16 @@
-.finances 
-{
+.finances {
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
 }
 
-.finances-balance
-{
+.finances-balance {
     display: flex;
     align-items: center;
 }
-.finances-balance button 
-{
+
+.finances-balance button {
     height: 40px;
     width: 40px;
     border: none;
@@ -24,9 +22,9 @@
     font-size: 1rem;
     cursor: pointer;
 }
-.finances-balance .balance 
-{
-    
+
+.finances-balance .balance {
+
     position: absolute;
     font-weight: bold;
     background-color: #222;
@@ -40,8 +38,11 @@
     right: 1rem;
     top: 1rem;
 }
-.finances-balance .balance::before /* Adicionar R$ antes do saldo */
-{
+
+.finances-balance .balance::before
+
+/* Adicionar R$ antes do saldo */
+    {
     content: 'R$';
     position: absolute;
     transform: translateX(-60px);

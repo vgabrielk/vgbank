@@ -1,14 +1,14 @@
 .sidebar {
     height: 100vh;
-    width:  10%;
+    width: 10%;
     background-color: #222;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 0 4rem;
 }
-.sidebar a 
-{
+
+.sidebar a {
     color: #000;
     filter: invert(100%);
     font-size: 2rem;
@@ -18,26 +18,24 @@
     display: grid;
     place-items: center;
 }
-.sidebar a:hover 
-{
+
+.sidebar a:hover {
     transform: scale(1.1);
 }
 
-.sidebar-nav 
-{
+.sidebar-nav {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
 }
 
 
-.bank-logo 
-{
+.bank-logo {
     position: absolute;
     bottom: 2rem;
 }
-.sidebar-user 
-{
+
+.sidebar-user {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.342);
     text-transform: uppercase;
     border-radius: 12px;

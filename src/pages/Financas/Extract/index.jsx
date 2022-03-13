@@ -1,7 +1,6 @@
-import { memo, useState } from 'react';
+import { memo } from 'react';
 import './index.css'
 const Extract = () => {
-    const [search, setSearch] = useState('')
     const values = [
         {
             id: 1,

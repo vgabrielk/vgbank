@@ -2,7 +2,7 @@ import React from 'react';
 import VgCard from '../../assets/images/vgcard.svg'
 
 const Card = (props) => {
-    
+
     return (
         <>
             <div className="card-bank">

@@ -25,7 +25,7 @@ const Home = () => {
                 <Card name={name} />
                 <div className="home-inputs">
                     <input type="text" id='input' autoComplete='off' placeholder='Digite seu nome para simular seu cartão!' className='input-write' maxLength={24} onKeyPress={handleSubmit} onChange={(e) => setName(e.target.value)} />
-                  <Button222 title='Salvar' lstorage={lstorage} />
+                    <Button222 title='Salvar' lstorage={lstorage} />
                 </div>
             </main>
 

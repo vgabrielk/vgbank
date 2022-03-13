@@ -1,15 +1,15 @@
 @media(max-width: 800px) {
     .home-inputs {
         width: 90% !important;
-        margin-top: 1rem!important;
+        margin-top: 1rem !important;
     }
-    .cards
-    {
-        width: 80%!important;
+
+    .cards {
+        width: 80% !important;
     }
-    .values
-    {
-        display: none!important;
+
+    .values {
+        display: none !important;
     }
 
 }
@@ -22,15 +22,15 @@
     /* home */
     .home-inputs {
         flex-direction: column;
-        align-items: center!important;
+        align-items: center !important;
     }
-    .home-inputs input 
-    {
-        width: 100%!important;
+
+    .home-inputs input {
+        width: 100% !important;
     }
-    .home-inputs button 
-    {
-        margin-top: 1rem!important;
+
+    .home-inputs button {
+        margin-top: 1rem !important;
     }
 
     /* Sidebar */
