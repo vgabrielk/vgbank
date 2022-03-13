@@ -3,7 +3,7 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
-    width: 290px;
+    width: 218px;
     padding: 1rem;
     color: #eee;
     font-weight: 600;
@@ -45,6 +45,7 @@
     width: 60%;
     text-align: start;
     text-transform: capitalize;
+    border-bottom: 1px solid #eee;
 }
 
 .total {
